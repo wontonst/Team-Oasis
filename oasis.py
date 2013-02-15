@@ -15,6 +15,9 @@ class Anti_soft_Drink():
     
     print "Please enter the number of times you take soft drinks in a week: "
     soft_num = int(input())
+
+    if soft_num > 30:
+            print "[no msg implemented for numbers 31 and higher]"
         
     if 21 <= soft_num <= 30:
             print "Stop taking soft drinks or you will have yourself to blame once you are diagnosed with diabetes"
